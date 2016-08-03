@@ -1,0 +1,13 @@
+package com.kata.chop;
+
+public class testBinaryChop {
+
+	public static void  main(String[] args){
+		
+		binarychop.binaryChop(1, new int[] {1,2,3});
+		
+		
+	}
+	
+	
+}

@@ -1,0 +1,25 @@
+package com.kata.chop;
+
+public class testBinaryChop {
+
+	public static void  main(String[] args){
+		
+		int [] testArray = {1, 0, -5, 5, 6, 3, 2};
+		
+		for (int i = 0; i= i+1 ; i < testArray.length){
+		
+		System.out.println("The index of th number is: " + binarychop.binaryChop(1, new int[] {1,2,3}));
+		System.out.println("The index of th number is: " + binarychop.binaryChop(0, new int[] {1,2,3}));
+		System.out.println("The index of th number is: " + binarychop.binaryChop(-5, new int[] {1,2,3}));
+		System.out.println("The index of th number is: " + binarychop.binaryChop(2, new int[] {1,2,3}));
+		System.out.println("The index of th number is: " + binarychop.binaryChop(3, new int[] {1,2,3}));
+		System.out.println("The index of th number is: " + binarychop.binaryChop(5, new int[] {1,2,3}));
+		System.out.println("The index of th number is: " + binarychop.binaryChop(6, new int[] {1,2,3}));
+		System.out.println("The index of th number is: " + binarychop.binaryChop(7, new int[] {1,2,3}));
+		
+		
+		
+	}
+	
+	
+}

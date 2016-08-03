@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<watchExpressions>\n<expression enabled\="true" text\="testArray[index]"/>\n<expression enabled\="true" text\="array"/>\n<expression enabled\="true" text\="number"/>\n<expression enabled\="true" text\="midIndex"/>\n<expression enabled\="true" text\="startIndex"/>\n<expression enabled\="true" text\="endIndex"/>\n<expression enabled\="true" text\="array[midIndex]"/>\n<expression enabled\="true" text\="number"/>\n</watchExpressions>\n

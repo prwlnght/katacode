@@ -1,0 +1,40 @@
+package com.kata.chop;
+
+//Assumptions arrays are already sorted
+// 
+
+
+public class binarychop {
+
+	
+	//iterative appraoch 
+	public static int binaryChop(int number, int [] array){
+		int midIndex; 
+		int startIndex = 0;
+		int endIndex = array.length -1;
+		midIndex = (startIndex + endIndex)/2;
+		
+		
+		while(array[midIndex] != number){
+		
+		midIndex = (startIndex + endIndex)/2;
+		
+		 if(array[midIndex] > number) {
+			endIndex = midIndex;
+			
+		}
+		else{
+			startIndex = midIndex;
+			
+		}
+		 
+		}
+		
+		System.out.print("The number is: " + midIndex);
+		return array[midIndex];
+	}
+	
+	
+	//leeop approach 
+	
+}

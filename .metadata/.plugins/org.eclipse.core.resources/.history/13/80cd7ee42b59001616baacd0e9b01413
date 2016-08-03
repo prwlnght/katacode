@@ -1,0 +1,11 @@
+package com.kata.chop;
+
+public class binarychop {
+
+
+	
+	public static int binaryChop(int number, int [] array){
+		return 0;
+	}
+	
+}

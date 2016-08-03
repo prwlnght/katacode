@@ -1,0 +1,19 @@
+package com.kata.chop;
+
+public class testBinaryChop {
+
+	public static void  main(String[] args){
+		
+		int [] testArray = {1, 0, -5, 5, 6, 3, 2};
+		
+		for (int index = 0;index < testArray.length; index = index + 1  ){
+		
+		System.out.println("The index of th number is: " + binarychop.binaryChop(testArray[index], new int[] {1,2,3}));
+		
+		
+		
+	}
+	
+	
+}
+}

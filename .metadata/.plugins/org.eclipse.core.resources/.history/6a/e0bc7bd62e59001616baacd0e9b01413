@@ -1,0 +1,20 @@
+package com.kata.chop;
+
+//Assumptions arrays are already sorted
+// 
+
+
+public class binarychop {
+
+	
+	
+	public static int binaryChop(int number, int [] array){
+		int midIndex; 
+		
+		midIndex = array.length/2;
+		
+		System.out.print("The number is: " + midIndex);
+		return 0;
+	}
+	
+}

@@ -1,0 +1,15 @@
+package com.kata.chop;
+
+import System.out.*;
+
+public class binarychop {
+
+
+	
+	public static int binaryChop(int number, int [] array){
+		
+		print("The number is: " + number);
+		return 0;
+	}
+	
+}
